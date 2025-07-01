@@ -1,7 +1,7 @@
 // Calling canvas
 const canvas = document.getElementById('gameCanvas');
 const scoreDisplay = document.getElementById('score');
-
+// Main js
 // calling audio sound effect and food img
 const eatSound = new Audio('./assets/eat.wav');
 const gameOverSound = new Audio('./assets/game over.wav');
