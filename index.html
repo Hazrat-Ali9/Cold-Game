@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <style>
+        body {
+            background-color: #382626;
+            font-family: Arial, Helvetica, sans-serif;
+            overflow: hidden;
+        }
+
+        canvas {
+            background-color: #ef8d8d;
+            border: 1px solid #fff;
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+        .container ul{
+            list-style-type: disc;
+        }
+        .container ul li{
+            display: inline-block;
+            margin: 0px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul>
+            <li>
+                <h4 id="score">score : </h4>
+            </li>
+            <li>
+                <strong>press space key to play</strong>
+            </li>
+        </ul>
+        <canvas id="gameCanvas" width="900" height="900"></canvas> <br>
+    </div>
+    <audio src=""></audio>
+    <script src="./mein.js"></script>
+</body>
+
+</html>
